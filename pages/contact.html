@@ -3,28 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css"/>
+    <link rel="stylesheet" href="../style/style.css"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
-<body class="body_contact">
-    <h3>you can get in touch through the standard socials by clicking below</h3>
+<body class="body_main">
 
-    <h3>or send me a message here!</h3>
+    <div class="page-title">
+       <h1 class="heading-contact">Contact Me</h1>
+</div>
+    <div class="contact-container">
+    <div class="socials">
+    <h4>you can get in touch through the standard socials by clicking below -</h4>
+    </div>
+
+
+
+<div class="form-contact">
+    <div class="message">
+        <h4>- or send me a message here!</h4>
+    </div>
 <form>
 
-    <label for="name">Name</label>
-    <input type="text" id="name"></input>
-    <label for="email">Email</label>
-    <input type="text" id="name"></input>
-    <label for="message" id="message"></label>
-    <input type="textarea" id="textarea"></input>
-    <input type="submit" class="submit-button"></input>
-</form>
+    <label for="name">Name:</label>
+    <input type="text"/><br>
+ 
+    <label for="email">Email:</label>
+    <input type="text"/><br>
 
-    <nav>
-        <a href="../home.html">home</a>
-        <a href="./about.html">about</a>
-        <a href="./blog.html">blog</a>
+    <label for="message">Message:</label>
+    <input type="text" class="textarea"/><br>
+
+    <button class="submit-button"><i class="fas fa-chevron-right">Send</i>
+        </button>
+
+
+</form>
+</div>
+</div>
+
+    <nav class="navbar">
+        <a class="links" href="../home.html">home</a>
+        <a class="links" href="./about.html">about</a>
+        <a class="links" href="./blog.html">blog</a>
     </nav>
 </body>
 </html>

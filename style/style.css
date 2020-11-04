@@ -16,24 +16,55 @@
     
 }
 
-h1 {
-    font-family: 'Monoton', cursive;
+.heading {
+    font-family:'Monoton';
     color: maroon;
-    font-stretch: expanded;
-    font-weight: lighter;
-    font-size: 5rem;
+    font-stretch: wider;
+    font-weight: thick;
+    font-size: 3rem;
 }
+
+.heading-contact {
+    font-family:'Monoton';
+    color: darkgreen;
+    font-stretch: wider;
+    font-weight: thick;
+    font-size: 3rem;
+}
+
 h3 { 
-    font-size: x-large;
+    font-size: 1.5rem;
     font-family: 'Raleway', sans-serif;
     color:maroon;
-}
-
-p {
-    width: 60rem;
-    border: solid 2px #c9c926;
+    justify-content: center;
+    font-weight: lighter;
+    
 
 }
+
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    box-shadow: 
+    0 3px 0 0 rgba(0, 100, 0, 0.534),
+    0 6px 0 0 rgba(230, 96, 0, 0.39),
+    0 9px 0 0 rgba(245, 196, 0, 0.486),
+   
+
+    0 -3px 0 0 rgba(0, 100, 0, 0.534),
+    0 -6px 0 0 rgba(230, 96, 0, 0.39),
+    0 -9px 0 0 rgba(245, 196, 0, 0.486);
+    
+}
+    
+
+
 
 .navbar {
     background-color: rgb(230, 96, 0, 0.5);
@@ -50,7 +81,6 @@ p {
 .links {
     color: maroon;
     font-family: 'Raleway', sans-serif;
-    font-weight: bold;
     text-decoration: none;
 }
 
@@ -63,10 +93,90 @@ p {
     font-size: larger;
     
 }
+
+.contact-container {
+    display: flex;
+    margin-top: 2vw;
+    
+    align-items: center;
+    
+}
+    
+.form-contact {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    color:maroon;
+    font-weight: lighter;
+    align-items: center;
+    min-height: 100vh;
     
 
 
+}
+.socials {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    color:maroon;
+    font-weight: lighter;
+    align-items: center;
+    min-height: 100vh;
+}
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
- 
+.page-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        
+        box-shadow: 
+        0 3px 0 0 rgba(0, 100, 0, 0.534),
+        0 6px 0 0 rgba(230, 96, 0, 0.39),
+        0 9px 0 0 rgba(245, 196, 0, 0.486),
+       
+    
+        0 -3px 0 0 rgba(0, 100, 0, 0.534),
+        0 -6px 0 0 rgba(230, 96, 0, 0.39),
+        0 -9px 0 0 rgba(245, 196, 0, 0.486);
+        
+    }
+    label, input {
+        display: flex;
+        color: maroon;
+    }
+    
+    label {
+        margin-bottom: 20px;
+        
+    }
+
+input, text {
+    border: darkgreen solid 2px;
+    background-color: rgb(230, 96, 0, 0.5);
+    border-radius: 10%;
+}
+.textarea {
+    height: 3rem;
+}
+.submit-button:hover {
+color: darkgreen;
+background-color: rgba(245, 196, 0, 0.486) ;
+border-color:  rgba(230, 96, 0, 0.39) ;
+
+}
+.submit-button
 
 
