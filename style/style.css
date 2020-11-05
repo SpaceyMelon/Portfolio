@@ -9,11 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    
-    
-
-    
+    min-height: 100vh;    
 }
 
 .heading {
@@ -29,15 +25,23 @@
     color: darkgreen;
     font-stretch: wider;
     font-weight: thick;
-    font-size: 3rem;
+    font-size: 3rem;    
 }
 
-h3 { 
+.heading-about {
+    font-family:'Monoton';
+    color:  rgb(209, 95, 14);
+    font-stretch: wider;
+    font-weight: thick;
+    font-size: 3rem;
+}
+h2 { 
     font-size: 1.5rem;
     font-family: 'Raleway', sans-serif;
     color:maroon;
     justify-content: center;
     font-weight: lighter;
+    margin-bottom: 0vw;
     
 
 }
@@ -93,12 +97,16 @@ h3 {
     font-size: larger;
     
 }
-
 .contact-container {
     display: flex;
     margin-top: 2vw;
-    
     align-items: center;
+}
+.page-container {
+    display: flex;
+    margin-top: 2vw;
+    align-items: center;
+    flex-direction: column;
     
 }
     
@@ -177,6 +185,114 @@ background-color: rgba(245, 196, 0, 0.486) ;
 border-color:  rgba(230, 96, 0, 0.39) ;
 
 }
-.submit-button
+.paragraph {
+    background-color:  rgba(230, 96, 0, 0.103);
+    font-family: 'Raleway', sans-serif;
+    color:maroon;
+    justify-content: space-evenly;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+    height: 55%;
+    margin: .5vw;
+    border-radius: 10px;
+    border: 1px solid rgba(245, 196, 0, 0.486);
+}
+#link-container {
+    align-items: center;
+    display: flex;  
+    justify-content: space-evenly;
+}
+    h5 {
+        margin-top: 0vw;
+        color: bisque;
+
+    }
+  
+   
+
+}
+p {
+    margin: .5vw;
+}
+form {
+    margin: .5vw;
+}
+.background {
+    border-radius: 10px;
+    border: 1px solid rgba(245, 196, 0, 0.486);
+    background-color:  rgba(230, 96, 0, 0.103);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.socialicon {
+   font-size: 5rem;
+   color: darkgreen;
+   height: 60%;
+  
+
+
+}
+
+.socialicon:hover {
+    font-size: 6rem;
+    color: maroon;
+}
+.content {
+    align-items: center;
+    display: flex;  
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 40vh;
+    min-width: 40vw;
+    margin-top: 2vh;
+}
+ .abouticon {
+    font-size: 3rem;
+    color: darkgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0vw;
+    
+    
+ }
+ .abouticon:hover {
+    color: maroon;
+ }
+ .abouticon:hover h5{
+     color: maroon
+ }
+    
+ .git {
+    align-items: center;
+    display: flex;  
+    justify-content: space-evenly;
+   flex-direction: column;
+    
+   
+    
+ }
+.resume {
+    align-items: center;
+    display: flex;  
+    justify-content: space-evenly;
+    flex-direction: column;
+
+  
+   
+    
+    
+}
+
+
 
 
