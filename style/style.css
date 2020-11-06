@@ -19,33 +19,76 @@
     font-weight: thick;
     font-size: 3rem;
 }
-
-.heading-contact {
+ 
+.heading-page {
     font-family:'Monoton';
-    color: darkgreen;
-    font-stretch: wider;
-    font-weight: thick;
-    font-size: 3rem;    
-}
-
-.heading-about {
-    font-family:'Monoton';
-    color:  rgb(209, 95, 14);
+    color: maroon;
     font-stretch: wider;
     font-weight: thick;
     font-size: 3rem;
+    margin: 0.5vh;
 }
+
+
+
+
 h2 { 
     font-size: 1.5rem;
     font-family: 'Raleway', sans-serif;
     color:maroon;
     justify-content: center;
     font-weight: lighter;
-    margin-bottom: 0vw;
     
+    
+}
+.posts {
+   
+    font-family: 'Raleway', sans-serif;
+    color:maroon;
+    
+    font-weight: lighter;
+    display: block;
+    position: fixed;
+    align-items: center;
+    width: 75%;
+    min-height: 40vh;
+    border-radius: 10px;
+    
+}
+details {
+    display: block;
+    margin-left: 1vw;
+
+
+}
+    
+    
+
+
+.blog-container {
+    font-family: 'Raleway', sans-serif;
+    color:maroon;
+    justify-content: space-evenly;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: unset;
+    height: 100%;
+    width: 100%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    
+    border-radius: 10px;
+    border: 1px solid rgba(245, 196, 0, 0.486);
 
 }
 
+    img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+
+
+}
 
 
 .title {
@@ -55,15 +98,15 @@ h2 {
     flex-direction: column;
     
     
-    box-shadow: 
-    0 3px 0 0 rgba(0, 100, 0, 0.534),
-    0 6px 0 0 rgba(230, 96, 0, 0.39),
-    0 9px 0 0 rgba(245, 196, 0, 0.486),
+    box-shadow:    
+    0 4px 0 0 rgba(0, 100, 0, 0.534),
+    0 8px 0 0 rgba(230, 96, 0, 0.39),
+    0 12px 0 0 rgba(245, 196, 0, 0.486),
    
 
-    0 -3px 0 0 rgba(0, 100, 0, 0.534),
-    0 -6px 0 0 rgba(230, 96, 0, 0.39),
-    0 -9px 0 0 rgba(245, 196, 0, 0.486);
+    0 -4px 0 0 rgba(0, 100, 0, 0.534),
+    0 -8px 0 0 rgba(230, 96, 0, 0.39),
+    0 -12px 0 0 rgba(245, 196, 0, 0.486);
     
 }
     
@@ -71,7 +114,7 @@ h2 {
 
 
 .navbar {
-    background-color: rgb(230, 96, 0, 0.5);
+    background-color: rgba(230, 96, 0, 0.507);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -99,15 +142,21 @@ h2 {
 }
 .contact-container {
     display: flex;
-    margin-top: 2vw;
+    margin-top: 4vw;
     align-items: center;
+    justify-content: center;
 }
 .page-container {
     display: flex;
-    margin-top: 2vw;
+    margin-top: 4vw;
     align-items: center;
     flex-direction: column;
     
+}
+.blog-container {
+    display: flex;
+    margin: 6vh;
+    align-items: center;
 }
     
 .form-contact {
@@ -141,24 +190,26 @@ h2 {
 
 .page-title {
     display: flex;
-    justify-content: center;
-    align-items: center;
     
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+    margin: 1vh;
+    
         
+    
         
         box-shadow: 
-        0 3px 0 0 rgba(0, 100, 0, 0.534),
-        0 6px 0 0 rgba(230, 96, 0, 0.39),
-        0 9px 0 0 rgba(245, 196, 0, 0.486),
+        0 2px 0 0 rgba(0, 100, 0, 0.534),
+        0 4px 0 0 rgba(230, 96, 0, 0.39),
+        0 6px 0 0 rgba(245, 196, 0, 0.486),
+
+        0 -2px 0 0 rgba(0, 100, 0, 0.534),
+        0 -4px 0 0 rgba(230, 96, 0, 0.39),
+        0 -6px 0 0 rgba(245, 196, 0, 0.486);
+
        
     
-        0 -3px 0 0 rgba(0, 100, 0, 0.534),
-        0 -6px 0 0 rgba(230, 96, 0, 0.39),
-        0 -9px 0 0 rgba(245, 196, 0, 0.486);
+
         
     }
     label, input {
@@ -173,16 +224,28 @@ h2 {
 
 input, text {
     border: darkgreen solid 2px;
-    background-color: rgb(230, 96, 0, 0.5);
-    border-radius: 10%;
+    background-color:rgba(230, 96, 0, 0.507);
+    border-radius: 10px;
 }
 .textarea {
     height: 3rem;
 }
+.submit-button {
+    background-color: transparent;
+    color: darkgreen;
+    padding: 0.25em 4.5em;
+    border: none;
+    outline:none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+
+}
 .submit-button:hover {
 color: darkgreen;
-background-color: rgba(245, 196, 0, 0.486) ;
-border-color:  rgba(230, 96, 0, 0.39) ;
+border: darkgreen solid 2px;
+justify-content: flex-end;
 
 }
 .paragraph {
@@ -200,6 +263,24 @@ border-color:  rgba(230, 96, 0, 0.39) ;
     border-radius: 10px;
     border: 1px solid rgba(245, 196, 0, 0.486);
 }
+
+#paragraph-scroll {
+    
+        background-color:  rgba(163, 92, 41, 0.103);
+        font-family: 'Raleway', sans-serif;
+        color:maroon;
+        
+        font-weight: lighter;
+        display: flex;
+
+        align-items: center;
+        width: 75%;
+        height: 55vh;
+        margin-top: 2vw;
+        border-radius: 10px;
+        border: 1px solid rgba(245, 196, 0, 0.486);
+        overflow: scroll;
+}
 #link-container {
     align-items: center;
     display: flex;  
@@ -213,7 +294,7 @@ border-color:  rgba(230, 96, 0, 0.39) ;
   
    
 
-}
+
 p {
     margin: .5vw;
 }
