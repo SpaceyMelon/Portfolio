@@ -1,7 +1,7 @@
 @import "normalize.css";
 
 body {
-    background-color: bisque;
+    background-color: #ffe4c4;
 }
 
 .header {
@@ -32,10 +32,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-   
-
-    
 }
 
 
@@ -43,16 +39,12 @@ body {
             
             
 
-}
 
 
 
 
-img {
-    height: 150px;
-    width: 150px;
-    border-radius: 10px;
-}
+
+
 
 .homepage {
     display: flex;  
@@ -108,8 +100,8 @@ img {
 .contact-container {
 
 
-       display: flex;  
-       align-content: center;
+     display: flex;  
+      align-content: center;
       justify-content:center;
       height: 80vh;
       flex-direction: column;
@@ -190,25 +182,27 @@ img {
   
 }
 
-.homepage-container {
-    
-        display: flex;  
-        padding-left: 1vw;
-        padding-right: 2vw;
-        padding-top: 2vh;
-        padding-bottom: 2vh;
-        justify-content: center;
-        align-self: center;
-       margin-bottom: 5vh;
-        flex-direction: column;
-        border-radius: 10px;
-        height: fit-content;
-        width: fit-content ;
-        margin: none;
-        margin-top: 20vh;
-        margin-bottom: 20vh;
 
-        text-align: left;  
+#homepage-container {
+    
+   
+    
+    color:maroon;
+    justify-content: center;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    width: 60vw;
+    border-radius: 10px;        
+
+    padding-left: 3vh;
+padding-right: 3vh;
+
+padding-top: 3vh;
+padding-bottom: 3vh;
+
         
 
         box-shadow: 
@@ -225,15 +219,7 @@ img {
     
     
 
-.blog {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 60vh;
-    width:75vw;
 
-}
     
 .form-contact {
     display: flex;
@@ -277,11 +263,7 @@ img {
     flex-direction: column;
 }
 
-.page-title {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
+
     
     
     
@@ -340,10 +322,9 @@ justify-content: flex-end;
 
 #paragraph-scroll {
     background-color:  rgba(163, 92, 41, 0.103);
-    font-family: 'Raleway', sans-serif;
-    color:maroon;
-    justify-content: flex-start;
-    font-weight: lighter;
+
+    
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -366,9 +347,9 @@ padding-right: 3vh;
     font-family: 'Raleway', sans-serif;
     color:maroon;
     justify-content: center;
-    font-weight: lighter;
+    
     display: flex;
-    flex-direction: column;
+    
     align-items: center;
     height: 40vh;
     width: 60vw;
@@ -378,21 +359,16 @@ padding-right: 3vh;
     border: 1px solid rgba(245, 196, 0, 0.486);
     padding-left: 3vh;
 padding-right: 3vh;
-
 padding-top: 3vh;
 padding-bottom: 3vh;
 }
 
 .posts {
     display: flex;  
-    align-content: flex-start;
-    justify-content: flex-start;
-    
     font-family: 'Raleway', sans-serif;
     color:maroon;
-    
     width: 80vw;
-   padding-top: 3vh;
+    padding-top: 3vh;
     padding-bottom: 6vh;
 
     
@@ -567,7 +543,30 @@ ul {
         align-items: center;
         flex-direction: column;
     }
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+
+.main {    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     
+    width: inherit;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    margin-top:0vh;
+    margin-bottom: 0vh;
+    font-size: 4rem;
+    text-align: center;
+}
+ 
  
 
 
@@ -610,3 +609,11 @@ ul {
     justify-content: center;
     align-items: center;
 flex-direction: column;}
+
+.main-img {
+    display: flex;
+height: 100px;
+width: 100px;
+
+
+}
