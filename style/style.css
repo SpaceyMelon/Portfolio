@@ -24,7 +24,7 @@ body {
 
 
 .heading-page {
-    font-family:'Monoton';
+    font-family:'Holtwood One SC', serif;
     color: maroon;
     font-weight: normal;
     font-size: 3rem;
@@ -88,6 +88,9 @@ img {
     color: maroon;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
+    font-size: 3vh;
+    display:flex;
+    justify-content: space-evenly;
 }
 
 .links:visited {
@@ -97,7 +100,7 @@ img {
 
 .links:hover {
     color: darkgreen;
-    text-decoration: underline;
+    
     font-weight: bold; 
     
 }
@@ -142,14 +145,22 @@ img {
         display: flex;  
         align-content: center;
         justify-content: center;
-
         flex-direction: column;
         }
+        .heading-page {
+            font-family:'Holtwood One SC', serif;
+            color: maroon;
+            font-weight: normal;
+            font-size: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    }
+}
 
 
-        }
     
-   
 
    
 #link-container2 {
@@ -263,25 +274,19 @@ img {
     justify-content: center;
     align-items: center;
     font-size: 2vw;
+    flex-direction: column;
 }
 
 .page-title {
     display: flex;
     align-items: center;
     flex-direction: column;
-
-    
-    
-    
-        box-shadow: 
-        0 2px 0 0 rgba(0, 100, 0, 0.534),
-        0 4px 0 0 rgba(230, 96, 0, 0.39),
-        0 6px 0 0 rgba(245, 196, 0, 0.486),
-
-        0 -2px 0 0 rgba(0, 100, 0, 0.534),
-        0 -4px 0 0 rgba(230, 96, 0, 0.39),
-        0 -6px 0 0 rgba(245, 196, 0, 0.486);
 }
+    
+    
+    
+
+
 
 label, input {
         display: flex;
@@ -350,6 +355,8 @@ justify-content: flex-end;
     border: 1px solid rgba(245, 196, 0, 0.486);
     padding-left: 3vh;
 padding-right: 3vh;
+
+
     
     
 }
@@ -404,9 +411,6 @@ ul {
     
 }
         
-
-
-
 #paragraph-scroll::-webkit-scrollbar {
     background-color: rgba(0, 100, 0, 0.164);
     width: .25rem;
@@ -414,6 +418,18 @@ ul {
 }
 
 #paragraph-scroll::-webkit-scrollbar-thumb {
+    background-color: darkgreen;
+    border-radius: 10px;
+}
+
+
+#paragraph-scroll2::-webkit-scrollbar {
+    background-color: rgba(0, 100, 0, 0.164);
+    width: .25rem;
+    border-radius: 10px;
+}
+
+#paragraph-scroll2::-webkit-scrollbar-thumb {
     background-color: darkgreen;
     border-radius: 10px;
 }
@@ -427,7 +443,11 @@ ul {
    
 
 
-
+.bucket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -438,6 +458,8 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    
 
 
 }
@@ -465,7 +487,8 @@ ul {
     justify-content: space-evenly;
     align-items: center;
     min-height: 10vh;
-    min-width: 40vh;
+    min-width: 50vh;
+    
 
 
 }
@@ -496,7 +519,7 @@ ul {
     justify-content: center;
    flex-direction: column;
    width: 50%;
-   font-size: 1.5em;
+   font-size: 3vh;
    font-family: 'Raleway', sans-serif;
    color:maroon;
    text-align: center;
@@ -509,7 +532,23 @@ ul {
     display: flex;  
     justify-content: space-evenly;
     flex-direction: column;
-    width: 50%;   font-size: 1.5em;
+    width: 50%;   font-size: 3vh;
+    font-family: 'Raleway', sans-serif;
+    color:maroon;
+    text-align: center;
+
+  
+   
+    
+    
+}
+
+.projects {
+    align-items: center;
+    display: flex;  
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 50%;   font-size: 3.vh;
     font-family: 'Raleway', sans-serif;
     color:maroon;
     text-align: center;
