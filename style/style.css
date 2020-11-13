@@ -99,8 +99,34 @@ body {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+        }
+        .abouticon {
+            font-size: 2rem;
+            color: darkgreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 3vh;
+            padding-right: 3vh;
+            padding-bottom: 3vh;
+            padding-top: 3vh;  
 }
 }
+
+@media only screen and (max-width: 400px ) {
+    .abouticon {
+        font-size: 2rem;
+        color: darkgreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 3vh;
+        padding-right: 3vh;
+        padding-bottom: 3vh;
+        padding-top: 3vh;  
+    }}
+
+
 .container {
     display: flex;  
      align-content: center;
