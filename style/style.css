@@ -84,7 +84,7 @@ body {
 }
 
 @media only screen and (max-width: 800px ) {
-    .blog-container-row {
+    .container-row {
         display: flex;  
         align-content: center;
         justify-content: center;
