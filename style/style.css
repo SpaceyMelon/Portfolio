@@ -4,6 +4,7 @@ body {
     background-color: #ffe4c4;
 }
 
+/* headers and headings */
 .header {
     display: flex;
     flex-direction: column;
@@ -45,7 +46,7 @@ body {
     color: maroon;
     font-size: 3vw;
 }
-  
+  /* Nav Bar*/
 .navbar {
     background-color: rgba(230, 96, 0, 0.507);
     display: flex;
@@ -56,7 +57,7 @@ body {
     width: 100%;
     height: 5vh;  
 }
-
+/* styling for nav links */
 .links {
     color: maroon;
     font-family: 'Raleway', sans-serif;
@@ -157,7 +158,7 @@ body {
         0 0 0 10px rgba(230, 96, 0, 0.39),
         0 0 0 15px rgba(245, 196, 0, 0.486);
 }
-    
+ /* contact form */   
 .form-contact {
     display: flex;
     flex-grow: 1;
@@ -169,7 +170,7 @@ body {
     justify-content: center;
     max-height: 75vh;    
 }
-
+/* social media links */
 .socials {
     display: flex;
     flex-grow: 1;
@@ -217,7 +218,7 @@ input, text {
 color: darkgreen;
 }
 
-
+/* scrollboxes */
 #paragraph-scroll {
     background-color:  rgba(163, 92, 41, 0.103);
     height: 60vh;
@@ -248,7 +249,7 @@ color: darkgreen;
     padding-top: 3vh;
     padding-bottom: 3vh;
 }
-
+/* Blog Posts */
 .posts {
     display: flex;  
     font-family: 'Raleway', sans-serif;
@@ -413,7 +414,7 @@ h1 {
     align-items: center;
     flex-direction: column;
 }
-
+/* animated logo */
 .main-img {
     display: flex;
     height: 100px;
